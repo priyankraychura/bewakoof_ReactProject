@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+nav {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #EAEAEA;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.nav-actions {
+    width: 530px;
+    display: flex;
+    list-style: none;
+    /* border: 1px solid red; */
+    gap: 20px;
+}
+.nav-actions li {
+    cursor: pointer;
+}
+nav .logo img{
+    height: 20px;
+}
+nav .search {
+    width: 290px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #EAEAEA;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    gap: 10px;
+}
+.search .fa-magnifying-glass {
+    background-color: transparent;
+}
+.search input {
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #363537;
+}
+.icon-actions {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.icon-actions .saperator {
+    height: 18px;
+    border: 1px solid #EAEAEA;
+    width: 1px;
+}
+.icon-actions li:not(.saperator) {
+    cursor: pointer;
+}
+.catbar ul {
+    height: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 17px;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.catbar ul li {
+    cursor: pointer;
+}
+ .catbar ul li a {
+    text-decoration: none;
+    color: black;
+ }
+.slider {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 543px;
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+}
+.slider .img img {
+    object-fit: cover;
+    height: 100%;
+}
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+.coll-slider {
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+}
+.coll-slider .img img {
+    height: 485px;
+}
+.man-cat{
+    margin-top: 20px;
+}
+.man-subcat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+}
+.man-subcat .subcat {
+    width: 16.5%;
+    height: 387px;
+}
+.man-subcat .subcat img {
+    width: 100%;
+    height: 100%;
+}
