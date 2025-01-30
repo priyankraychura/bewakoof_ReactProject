@@ -1,5 +1,46 @@
 {
-    "users": [],
-    "products": [],
-    "cart": []
+  "users": [
+    {
+      "id": "101b",
+      "fullname": "",
+      "number": "9429042215",
+      "email": "",
+      "gender": "male",
+      "terms": false
+    },
+    {
+      "id": "4f8c",
+      "fullname": "",
+      "number": "6359467208",
+      "email": "",
+      "gender": "male",
+      "terms": false
+    },
+    {
+      "id": "b178",
+      "fullname": "",
+      "number": "7852146390",
+      "email": "",
+      "gender": "male",
+      "terms": false
+    },
+    {
+      "id": "80a7",
+      "fullname": "",
+      "number": "1234567890",
+      "email": "",
+      "gender": "male",
+      "terms": false
+    },
+    {
+      "id": "15a6",
+      "fullname": "",
+      "number": "7862900224",
+      "email": "",
+      "gender": "male",
+      "terms": false
+    }
+  ],
+  "products": [],
+  "cart": []
 }

@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
       <nav>
         <div className="logo">
-          <img src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg" alt="" />
+          <Link to="/"><img src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg" alt="" /></Link>
         </div>
           <ul className="nav-actions">
             <li>MEN</li>
@@ -20,9 +20,9 @@ const Navbar = () => {
           </div>
           <ul className="icon-actions">
             <li className='saperator'></li>
-            <li><Link to="/login"><i className="fa-regular fa-user"></i></Link></li>
-            <li><i className="fa-regular fa-heart"></i></li>
-            <li><i className="fa-solid fa-bag-shopping"></i></li>
+            <li><Link to="/login-signup"><i className="fa-regular fa-user"></i></Link></li>
+            <li><Link to="/wishlist"><i className="fa-regular fa-heart"></i></Link></li>
+            <li><Link to="/cart"><i className="fa-solid fa-bag-shopping"></i></Link></li>
           </ul>
       </nav>
     </div>

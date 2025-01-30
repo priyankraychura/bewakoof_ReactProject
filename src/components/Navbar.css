@@ -60,6 +60,10 @@ nav .search {
 .icon-actions li:not(.saperator) {
     cursor: pointer;
 }
+.icon-actions li a {
+    text-decoration: none;
+    color: black;
+}
 .catbar ul {
     height: 50px;
     display: flex;

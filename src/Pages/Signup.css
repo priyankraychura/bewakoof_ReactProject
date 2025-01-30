@@ -1,0 +1,68 @@
+.form {
+    height: 100vh;
+}
+.num-input {
+    margin-top: 5px;
+}
+.input{
+    padding-left: 20px;
+}
+.number{
+    background-color: #F7F7F7;
+}
+label {
+    font-size: 12px;
+    color: #737E93;
+}
+.radios {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.radios .option {
+    cursor: pointer;
+    width: 161px;
+    height: 48px;
+    border: 1px solid rgb(241, 242, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.option.selected {
+    background-color: #FFF6D6;
+}
+.otps {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.otps .otp-field {
+    width: 40px;
+    height: 56px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid rgba(115, 126, 147, 0.327);;
+    background-color: white;
+}
+.resend-otp {
+    font-size: 14px;
+    color: #207BB4;
+    font-weight: 600;
+}
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.terms input[type="checkbox"] {
+    height: 16.5px;
+    width: 16.5px;
+}
+.terms span {
+    font-size: 14px;
+    color: #4E5664;
+}
