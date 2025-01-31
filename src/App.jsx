@@ -5,6 +5,7 @@ import './App.css'
 import MainRoutes from './Routes/MainRoutes'
 import Navbar from './components/Navbar'
 import { useLocation } from 'react-router'
+import CartNav from './components/CartNav'
 
 function App() {
   let {pathname} = useLocation();
@@ -15,7 +16,7 @@ function App() {
   
   return (
     <>
-      { pathname === '/cart' ? null : <Navbar /> }
+      { pathname === '/cart' ? <CartNav /> : <Navbar /> }
       <MainRoutes />
     </>
   )

@@ -1,12 +1,19 @@
 import React from 'react'
-import { useLocation, useParams } from 'react-router'
+import cartImg from '../assets/empty-cart.png'
+import './Cart.css'
+import { Link } from 'react-router'
 
 function Cart() {
     
     
   return (
     <div>
-        <h1>Cart Page</h1>
+        <div className="empty-cart">
+          <img src={cartImg} alt="" />
+          <h3>Hey, your bag feels so light</h3>
+          <h4>Let’s add some items in your bag</h4>
+          <button><Link to={"/"}>START SHOPPING</Link></button>
+        </div>
     </div>
   )
 }
