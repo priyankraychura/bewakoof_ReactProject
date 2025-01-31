@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 nav {
+    position: relative;
     height: 60px;
     width: 100%;
     border-bottom: 1px solid #EAEAEA;
@@ -24,7 +25,7 @@ nav .logo img{
     height: 20px;
 }
 nav .search {
-    width: 290px;
+    width: 340px;
     height: 40px;
     border-radius: 4px;
     background-color: #EAEAEA;
@@ -60,9 +61,37 @@ nav .search {
 .icon-actions li:not(.saperator) {
     cursor: pointer;
 }
+.icon-actions li h6 {
+    font-size: 12px;
+    font-weight: 600;
+}
 .icon-actions li a {
+    background-color: transparent;
     text-decoration: none;
     color: black;
+}
+.icon-actions .user-features {
+    display: none;
+    height: auto;
+    /* border: 1px solid red; */
+    width: 200px;
+    position: absolute;
+    top: 55px;
+    right: 200px;
+}
+.user-features ul {
+    list-style: none;
+}
+.user-features ul li {
+    background-color: #F5F5F5;
+    padding: 12px;
+    font-size: 12px;
+    width: 500;
+    font-style: italic;
+}
+.icon-actions li .fa-user {
+    /* border: 1px solid red; */
+    padding: 17px 0;
 }
 .catbar ul {
     height: 50px;
